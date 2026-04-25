@@ -1,0 +1,53 @@
+# ── World files (personal data, can be large) ─────────────────────────────
+worlds/*
+!worlds/.gitkeep
+
+# ── Mod files (.tmod binaries) ─────────────────────────────────────────────
+mods/*
+!mods/.gitkeep
+
+# ── tModLoader server files (downloaded by install_tmodloader.py) ──────────
+server/tmodloader/
+
+# ── Generated server config (may contain password / absolute paths) ────────
+server/serverconfig.txt
+
+# ── tModLoader runtime data ────────────────────────────────────────────────
+server/Logs/
+server/Players/
+server/Saves/
+server/ModConfigs/
+server/*.log
+server/*.crash
+
+# ── Backup zip files ───────────────────────────────────────────────────────
+backups/*.zip
+
+# ── Playit.gg tokens and tunnel configs ───────────────────────────────────
+playit.toml
+*.token
+*.key
+.playit/
+
+# ── Python artifacts ──────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ── OS junk ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor files ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Private / sensitive configs ───────────────────────────────────────────
+config/private*
+*.secret
+.env

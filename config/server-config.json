@@ -1,0 +1,20 @@
+{
+  "_comment": "Edit these settings, then run: python scripts/setup.py",
+
+  "server_name": "My tModLoader Server",
+  "port": 7777,
+  "max_players": 8,
+  "password": "",
+  "motd": "Welcome! Type /help for commands.",
+
+  "world_name": "MyWorld",
+  "world_size": 2,
+  "difficulty": 1,
+  "seed": "",
+  "auto_create": true,
+
+  "secure": true,
+  "language": "en-US",
+
+  "backup_count": 10
+}

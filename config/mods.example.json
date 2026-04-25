@@ -1,0 +1,20 @@
+{
+  "_comment_1": "This file is for REFERENCE ONLY — it does not configure the server directly.",
+  "_comment_2": "To actually install mods, copy .tmod files into the mods/ folder, then re-run setup.py.",
+
+  "_comment_workshop": "Workshop mod IDs are listed below for reference. You must download them",
+  "_comment_workshop2": "through your Terraria client, then copy the .tmod files to mods/.",
+  "workshop_mod_ids": [
+    2824688072,
+    2825167724
+  ],
+
+  "_comment_local": "Local .tmod filenames already placed in the mods/ folder:",
+  "local_mods": [
+    "CalamityMod.tmod",
+    "MagicStorageMod.tmod"
+  ],
+
+  "_comment_note": "IMPORTANT: Every player joining the server must have the same mods installed",
+  "_comment_note2": "and enabled in their own Terraria / tModLoader client."
+}
