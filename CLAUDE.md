@@ -14,7 +14,7 @@ The user has:
 ### Option A — Obsidian Git (GitHub-backed vault)
 If the user has set up Obsidian Git, their vault repo is:
 ```
-GitHub repo: <USERNAME>/<VAULT-REPO-NAME>   ← user fills this in
+GitHub repo: EliBrunner1/SuperAI
 ```
 Use the GitHub MCP tools to read, write, and commit notes.
 
@@ -82,6 +82,6 @@ Always output notes in valid Obsidian-flavored markdown:
 
 If the user opens a new session and needs to set context fast, they can paste this:
 
-> I use Obsidian with paid Sync. My vault is on GitHub at `<USERNAME>/<REPO>`.
+> I use Obsidian with paid Sync. My vault is on GitHub at `EliBrunner1/SuperAI`.
 > Help me manage my notes — you can read and write files using the GitHub MCP tools.
 > Use Obsidian-flavored markdown (wikilinks, frontmatter, callouts).
